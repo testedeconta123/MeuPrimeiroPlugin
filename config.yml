@@ -1,0 +1,41 @@
+##
+## Plugin desenvolvido por xampS
+## Versão: 1.0
+##
+## Permissões
+## VIP - curso.vip
+## ADMIN - curso.admin
+
+mysql:
+  host: 'localhost'
+  database: 'minecraft'
+  user: 'root'
+  senha: ''
+  porta: '3306'
+
+Mensagens:
+  Sem_Permissao: '&c* &7Você não tem permissão para executar esse comando!'
+  Jogador_OFF: '&c* &7Jogador off-line ou inexistente!'
+  Console: '&c* &7Comando apenas para jogadores.'
+  ChatLimpo: '&a* &7Chat limpo por &a%jogador%'
+
+Sintaxes:
+  GameMode: '&e* &7Utilize /gm &a(0|1)&7 para ir ao modo criativo/sobrevivência ou /gm (jogador) &a(0|1)&7 para alterar o gamemode de outro jogador.'
+  Anuncio: '&e* &7Utilize /anuncio <mensagerm>'
+  Tp: '&e* &7Use /tp <jogador 1> <jogador 2>'
+  Tphere: '&9* &7Use /tphere (jogador)'
+  
+Gerais:
+  Curado: '&a* &7Você se curou!'
+  HealOutros: '&a* &7Você curou o jogador &e%jogador% &7!'
+  HealPorOutro: '&9* &7Você foi curado por &9%jogador%'
+  GMCriativo: '&9* &7Você alterou seu gamemode para criativo!'
+  GMSurvival: '&9* &7Você alterou seu gamemode para sobrevivência!'
+  ChangedGMCriativo: '&9* &7Você alterou o gamemode de &9%jogador%&7 para criativo!'
+  ChangedByGMCriativo: '&9* &7Seu gamemode foi alterado para criativo pelo staff &9%jogador%'
+  ChangedGMSurvival: '&9* &7Você alterou o gamemode de &9%jogador% &7 para sobrevivência!'
+  ChangedByGMSurvival: '&9* &7Seu gamemode foi alterado para sobrevivência pelo staff &9%jogador%'
+  PuxouTodos: '&9* &7O staffer &9%jogador% + "&7 puxou todos os jogadores!'
+  TodosPuxados: '&a* &7Você teleportou todos jogadores até sua localização.'
+  Teleported: '&a* &7Teleportado com sucesso!'
+  PuxadoPorStaff: '&9* &7Você foi puxado pelo staff &9%jogador%'

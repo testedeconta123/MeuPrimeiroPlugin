@@ -1,0 +1,25 @@
+name: MeuPrimeiroPlugin
+version: 1.0
+author: xampS
+main: me.xamps.curso.Main
+commands:
+  heal:
+    description: Cura o jogador.
+  gm:
+    description: Altera o gamemode do jogador.
+  tpall:
+    description: Puxa todos os jogadores ate o staff.
+  tp:
+    description: Teleporta jogadores.
+  tphere:
+    description: Puxa um jogador ate o staff.
+  cc:
+    description: Limpa o chat do servidor.
+  anuncio:
+    description: Anuncia uma mensagem no servidor.
+  checar:
+    description: Checa infos de um jogador.
+  perfil:
+    description: Sistema de Perfil.
+  resetkdr:
+    description: Reseta o KDR de um jogador.

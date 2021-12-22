@@ -1,0 +1,6 @@
+name: MeuPrimeiroPlugin
+version: 1.0
+author: xampS
+main: me.xamps.curso.Main
+commands:
+  
